@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04518EEE24DE8B9500B9D66C /* TodayTopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518EED24DE8B9500B9D66C /* TodayTopTableViewCell.swift */; };
+		04518EF024DEA53100B9D66C /* TodayMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518EEF24DEA53100B9D66C /* TodayMessage.swift */; };
+		04518EF224DFD41000B9D66C /* TopChartsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518EF124DFD41000B9D66C /* TopChartsTableViewCell.swift */; };
+		04518EF424DFD7C400B9D66C /* TopChartsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518EF324DFD7C400B9D66C /* TopChartsTableViewController.swift */; };
+		04518EF624DFD80400B9D66C /* TopChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518EF524DFD80400B9D66C /* TopChart.swift */; };
+		04518EF824DFF75D00B9D66C /* AppDetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518EF724DFF75D00B9D66C /* AppDetialViewController.swift */; };
 		047FB1CD24DD541500201C81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FB1CC24DD541500201C81 /* AppDelegate.swift */; };
 		047FB1CF24DD541500201C81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FB1CE24DD541500201C81 /* SceneDelegate.swift */; };
-		047FB1D124DD541500201C81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FB1D024DD541500201C81 /* ViewController.swift */; };
 		047FB1D424DD541500201C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047FB1D224DD541500201C81 /* Main.storyboard */; };
 		047FB1D624DD541700201C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047FB1D524DD541700201C81 /* Assets.xcassets */; };
 		047FB1D924DD541700201C81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047FB1D724DD541700201C81 /* LaunchScreen.storyboard */; };
+		047FB1E324DE522600201C81 /* TodayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047FB1E224DE522600201C81 /* TodayTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04518EED24DE8B9500B9D66C /* TodayTopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTopTableViewCell.swift; sourceTree = "<group>"; };
+		04518EEF24DEA53100B9D66C /* TodayMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayMessage.swift; sourceTree = "<group>"; };
+		04518EF124DFD41000B9D66C /* TopChartsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopChartsTableViewCell.swift; sourceTree = "<group>"; };
+		04518EF324DFD7C400B9D66C /* TopChartsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopChartsTableViewController.swift; sourceTree = "<group>"; };
+		04518EF524DFD80400B9D66C /* TopChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopChart.swift; sourceTree = "<group>"; };
+		04518EF724DFF75D00B9D66C /* AppDetialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetialViewController.swift; sourceTree = "<group>"; };
 		047FB1C924DD541500201C81 /* IosAppView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosAppView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047FB1CC24DD541500201C81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047FB1CE24DD541500201C81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		047FB1D024DD541500201C81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		047FB1D324DD541500201C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047FB1D524DD541700201C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047FB1D824DD541700201C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047FB1DA24DD541700201C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047FB1E224DE522600201C81 /* TodayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +70,15 @@
 			children = (
 				047FB1CC24DD541500201C81 /* AppDelegate.swift */,
 				047FB1CE24DD541500201C81 /* SceneDelegate.swift */,
-				047FB1D024DD541500201C81 /* ViewController.swift */,
 				047FB1D224DD541500201C81 /* Main.storyboard */,
+				04518EF724DFF75D00B9D66C /* AppDetialViewController.swift */,
+				04518EF324DFD7C400B9D66C /* TopChartsTableViewController.swift */,
+				04518EF524DFD80400B9D66C /* TopChart.swift */,
+				04518EF124DFD41000B9D66C /* TopChartsTableViewCell.swift */,
+				04518EEF24DEA53100B9D66C /* TodayMessage.swift */,
+				04518EED24DE8B9500B9D66C /* TodayTopTableViewCell.swift */,
 				047FB1D524DD541700201C81 /* Assets.xcassets */,
+				047FB1E224DE522600201C81 /* TodayTableViewController.swift */,
 				047FB1D724DD541700201C81 /* LaunchScreen.storyboard */,
 				047FB1DA24DD541700201C81 /* Info.plist */,
 			);
@@ -137,9 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047FB1D124DD541500201C81 /* ViewController.swift in Sources */,
+				04518EF224DFD41000B9D66C /* TopChartsTableViewCell.swift in Sources */,
 				047FB1CD24DD541500201C81 /* AppDelegate.swift in Sources */,
+				04518EEE24DE8B9500B9D66C /* TodayTopTableViewCell.swift in Sources */,
+				04518EF824DFF75D00B9D66C /* AppDetialViewController.swift in Sources */,
+				04518EF424DFD7C400B9D66C /* TopChartsTableViewController.swift in Sources */,
+				04518EF024DEA53100B9D66C /* TodayMessage.swift in Sources */,
+				04518EF624DFD80400B9D66C /* TopChart.swift in Sources */,
 				047FB1CF24DD541500201C81 /* SceneDelegate.swift in Sources */,
+				047FB1E324DE522600201C81 /* TodayTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
